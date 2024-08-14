@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ranjan Singh | Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+<!-- Favicon for different formats -->
+<!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo">
+                <h2>Ranjan Singh</h2>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="#about" class="active">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <img src="img/main.png" alt="men" class="men">
+            <div class="main-detail">
+                <p>Hello I'm</p>
+                <h1>Ranjan Singh</h1>
+                <h4>Data Scientist</h4>
+
+                <div class="btn">
+                    <a href="https://drive.google.com/uc?export=download&id=17dOdwA2PDf5yWTz4St9PgFskm0oYPIJU" download="Your_CV_Name.pdf">
+                        <button type="button">Download CV</button>
+                    </a>
+                    <button type="button" class="btn-2" onclick="sendHiringEmail()">
+                        Hire Me
+                    </button>
+                </div>
+                
+
+                <div class="social">
+                    <a href="https://github.com/ranjandatascientist" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ranjan-singh-8ab3ba1a4/" target="_blank" rel="noopener noreferrer">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+        <h2>About Me</h2>
+        <p> 
+            I'm <strong>Ranjan Singh</strong>, a passionate Data Scientist with a master's degree in Data Science. My expertise lies in <strong>NLP, Time Series analysis, and Deep Learning</strong>, where I have delivered innovative solutions that drive data-driven decisions. I thrive on solving complex problems and have successfully leveraged my skills in <strong>Python, SQL, and Machine Learning</strong> to turn raw data into actionable insights.
+        </p>
+        <p>
+            In my career, I’ve built and optimized <strong>Data Lakes</strong>, and worked extensively with <strong>Hadoop, AWS, GCP, Linux, PostgreSQL, T-SQL, and SSMS</strong>. My hands-on experience in these areas has enabled me to architect and implement scalable data solutions that enhance business operations.
+        </p>
+        <p>
+            Beyond technical skills, I’m a dedicated learner who is always exploring new technologies and methodologies to stay ahead in the fast-paced field of data science. I am eager to bring my expertise to new challenges and contribute to impactful projects that make a difference.
+        </p>
+    </div>
+
+    <!-- Work Section -->
+    <div id="work" class="section">
+        <h2>My Work</h2>
+        <div class="work-row">
+            <div class="work-item">
+                <a href="https://github.com/ranjandatascientist" target="_blank">
+                    <img src="img/Chatbot.jpg" alt="Work Image" class="work-img">
+                    <p class="project-name">Gen AI Bot</p>
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://github.com/ranjandatascientist" target="_blank">
+                    <img src="img/data analysis.jpg" alt="Work Image" class="work-img">
+                    <p class="project-name">End To End Data Analysis</p>
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://github.com/ranjandatascientist" target="_blank">
+                    <img src="img/time series.jpg" alt="Work Image" class="work-img">
+                    <p class="project-name">Time Series</p>
+                </a>
+            </div>
+            <div class="work-item">
+                <a href="https://github.com/ranjandatascientist" target="_blank">
+                    <img src="img/cloud.jpg" alt="Work Image" class="work-img">
+                    <p class="project-name">Graph Database Modelling Using AWS Neptune and Gremlin</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Experience Section -->
+    <div id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Data Analyst | Elikem Software (Client: Nokia Pvt Ltd)</h3>
+            <h4>Current Role</h4>
+            <ul>
+                <li><strong>Leading End-to-End Projects:</strong> Spearheaded the development of Time Series and Topology solutions to optimize network traffic load balancing, directly improving network efficiency.</li>
+                <li><strong>Data Engineering & AWS:</strong> Architected and implemented comprehensive Data Lakes and real-time dashboards using Apache Superset, enabling data-driven decision-making.</li>
+                <li><strong>Advanced Analytics:</strong> Applied Python, SQL, and T-SQL for data extraction, transformation, and analysis, delivering actionable insights through statistical analysis and machine learning models.</li>
+
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <h3>Data Science Intern | Nokia</h3>
+            <ul>
+                <li><strong>Network Optimization Tools:</strong> Developed cutting-edge tools for 2G, 3G, and 4G network analysis, significantly enhancing network performance and operational efficiency.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <h3>NLP Researcher | University of Hyderabad</h3>
+            <ul>
+                <li><strong>Machine Translation Research:</strong> Applied Giza++ for translating between Telugu, Tamil, Malayalam, Hindi, and English, contributing to advancements in language processing and translation technologies.</li>
+            </ul>
+        </div>
+    
+        <div class="experience-item">
+            <h3>IT Engineer | NEC Corporation</h3>
+            <ul>
+                <li><strong>Server Management:</strong> Ensured optimal server performance and reliability, supporting critical IT infrastructure and improving operational efficiency.</li>
+            </ul>
+        </div>    
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Mobile: +91 7623040067</p>
+        <p>Email: Ranjansingh.datascientist@gmail.com</p>
+    </div>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        function sendHiringEmail() {
+    window.location.href = 'mailto:Ranjansingh.datascientist@gmail.com?subject=Hiring Inquiry&body=Hi Ranjan, I am interested in hiring you. Let\'s discuss further.';
+}
+    </script>
+</body>
+
+</html>
